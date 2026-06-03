@@ -61,14 +61,17 @@ class ChoosenWord():
 
 
 hangman_words = [
-    "algorithm", "breeze", "chimpanzee", "diamond", "elephant",
-    "fluff", "galaxy", "horizon", "igloo", "jackpot",
-    "kiosk", "labyrinth", "mystery", "nebula", "oxygen",
-    "pharaoh", "quartz", "rhythm", "sphinx", "tornado",
-    "unknown", "vampire", "whisper", "xylophone", "yacht",
-    "zombie", "python", "developer", "hardware", "software",
-    "keyboard", "monitor", "network", "database", "variable",
-    "function", "integer", "boolean", "syntax", "compile"
+    "supercalifragilisticexpialidocious", 
+    "pneumonoultramicroscopicsilicovolcanoconiosis",
+    
+    "blizzard", "mystique", "paradoxe", "quadrant", "sapphire",
+    "gargoyle", "jugglerx", "vanguard", "infinity", "phantoms",
+    "mischief", "corridor", "absolute", "badgered", "bimonthly",
+    "catapult", "daydream", "eccentric", "flamingo", "glitchy",
+    "gossamer", "hologram", "illusion", "jeopardy", "knapsack",
+    "luminous", "marathon", "nocturnal", "oblivion", "perplexo",
+    "quizzing", "ramshack", "scavenge", "suburban", "tentacle",
+    "umbrella", "velocity", "whiplash", "xenolith", "zeppelin"
 ]
 
 alphabet = [
@@ -83,7 +86,6 @@ while True:
     print(f"Lives: {chosen_word.lives}")
     print(f"Wrong Guesses: {chosen_word.wrong_guess}")
     print("Word:")
-    print(chosen_word.word)
     chosen_word.printself()
 
     print("")
